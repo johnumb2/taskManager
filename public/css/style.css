@@ -1,0 +1,33 @@
+.task {
+    border: 1px solid #000000;
+    margin: 2px;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.task-heading {
+    padding: 3px;
+}
+
+.task-body-min {
+    padding: 3px;
+}
+
+.task-grip {
+    position: relative;
+    float: right;
+    cursor: crosshair;
+    right: 2px;
+}
+
+.ui-state-highlight {
+    height: 50px;
+    border: 1px dashed #a0a0a0;
+}
+
+.fa.fa-grip:before {
+    content: "\f142 \202F \f142 \202F \f142";
+}
+.fa.fa-grip-large:before {
+    content: "\f142 \202F \f142 \202F \f142 \202F \f142 \202F \f142 \202F \f142 \202F \f142";
+}
