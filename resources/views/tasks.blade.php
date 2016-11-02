@@ -96,7 +96,7 @@
         function getTasks()
         {
             $.ajax({
-                url: 'http://taskapi.johnumb.com/api/task/',
+                url: 'http://taskapi.johnumb.com/api/task',
                 dataType: 'JSON',
                 type: 'GET',
                 crossDomain: true
@@ -141,7 +141,7 @@
             data += '&category=available&order=0';
 
             $.ajax({
-                url: 'http://taskapi.johnumb.com/api/task/',
+                url: 'http://taskapi.johnumb.com/api/task',
                 dataType: 'JSON',
                 type: 'POST',
                 crossDomain: true,
