@@ -96,7 +96,7 @@
         function getTasks()
         {
             $.ajax({
-                url: 'http://localhost:8080/api/task/',
+                url: 'http://taskapi.johnumb.com/api/task/',
                 dataType: 'JSON',
                 type: 'GET',
                 crossDomain: true
@@ -141,7 +141,7 @@
             data += '&category=available&order=0';
 
             $.ajax({
-                url: 'http://localhost:8080/api/task/',
+                url: 'http://taskapi.johnumb.com/api/task/',
                 dataType: 'JSON',
                 type: 'POST',
                 crossDomain: true,
@@ -157,7 +157,7 @@
             var data = $('#task-form').serialize();
 
             $.ajax({
-                url: 'http://localhost:8080/api/task/'+id,
+                url: 'http://taskapi.johnumb.com/api/task/'+id,
                 dataType: 'JSON',
                 type: 'PUT',
                 crossDomain: true,
@@ -171,7 +171,7 @@
         function updateTaskManual(id, data, type)
         {
             $.ajax({
-                url: 'http://localhost:8080/api/task/'+id,
+                url: 'http://taskapi.johnumb.com/api/task/'+id,
                 dataType: 'JSON',
                 type: type,
                 crossDomain: true,
